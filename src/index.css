@@ -1,0 +1,105 @@
+body {
+	color: #000000;
+	font: 12px Tahoma, sans-serif;
+	background-color: #ffffff;
+	border-top: none;
+	margin: 0;
+}
+input[type="text"] {
+	background-color: #000000;
+	border: none;
+	height: 30px;
+	color: #000000;
+	padding: 0 10px;
+	vertical-align: top;
+}
+button {
+	color: rgb(0, 0, 0);
+	background-color: #000000;
+	border: none;
+	height: 32px;
+	font-family: 'Oswald', sans-serif;
+}
+p {
+	margin: 20px 0;
+}
+/*
+Для Контейнера
+*/
+#wrapper {
+	max-width: 1445px;
+	color: #F6F6F6;
+	margin: auto;
+}
+header {
+	padding: 20px 0;
+}
+/*
+Для меню
+*/
+nav a {
+		text-decoration: none;
+		color: #666;;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	list-style-position: inside;
+	font: 18px 'Gilroy-Bold', sans-serif;
+	padding: 10px;
+}
+
+.top-menu li {
+	display: inline-block;
+	padding: 10px 30px;
+	margin: 0;
+}
+
+.top-menu li.active {
+	background: #000000;
+	color: #fff;
+}
+
+.top-menu a {
+	color: none;
+}
+/*
+Для Кнопки контакты
+*/
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	text-decoration: none;
+}
+
+h3 {
+-ms-transform: rotate(270deg);
+-moz-transform: rotate(270deg);
+-webkit-transform: rotate(270deg);
+transform: rotate(270deg);
+
+-ms-transform-origin: left top 0;
+-moz-transform-origin: left top 0;
+-webkit-transform-origin: left top 0;
+transform-origin: left top 0;
+
+margin-left: 0px;
+padding: 0;
+float: right;
+height:0px;
+width:0px;
+white-space: nowrap;
+}
